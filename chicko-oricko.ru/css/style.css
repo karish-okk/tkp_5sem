@@ -1,0 +1,54 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    font-size: 15px;
+    background-color: #0F0F0F;
+    line-height: 1.6;
+}
+
+body.lock {
+    overflow: hidden;
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+/*основная сетка*/
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Неоновые кнопочки */
+button {
+    color: #F7B922;
+    width: 120px;
+    height: 35px;
+    text-transform: uppercase;
+    border: 2px solid;
+    border-radius: 20px;
+    background: transparent;
+    cursor: pointer;
+    font-size: 12px;
+    position: relative;
+    transition: 0.2s;
+}
+
+button:hover {
+    color: #ba0961;
+    border: #ba0961 2px solid;
+    box-shadow:#ba0961 0 0 20px,
+    #BA0962 0 0 10px;
+}
+
+p {
+    color: #fff;
+}

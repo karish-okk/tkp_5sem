@@ -1,0 +1,43 @@
+.intro-adreses {
+    height: 300px;
+    background: url(../assets/img/adress-default.jpg);
+}
+
+.adress__content {
+    margin: 30px auto;
+    color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.one-adress {
+    padding: 20px 30px;
+    width: 550px;
+    margin: 20px;
+}
+
+.one-adress:hover {
+    box-shadow: #093AA8 0 0 20px;
+    border: #093AA8 2px solid;
+}
+
+.one-adress__info {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35% auto;
+}
+
+.one-adress__info img {
+    width: 140px;
+    height: auto;
+}
+
+.one-adress__info button {
+    color: #F7B922;
+    border: #F7B922 2px solid;
+    margin-top: 40px;
+}
+
+.one-adress__info button:hover {
+    box-shadow: #F7B922 0 0 20px;
+}

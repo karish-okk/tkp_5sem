@@ -1,0 +1,16 @@
+.page-section {
+    margin-top: 40px;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.icon {
+    width: 20px;
+    height: auto;
+    margin: 0 10px;
+    padding-top: 10px;
+}
+
+.page-content {
+    padding: 40px;
+}

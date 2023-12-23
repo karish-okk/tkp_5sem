@@ -1,0 +1,181 @@
+.sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    width: 100%;
+
+    background: url('/admin/assets/img/intro.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box {
+padding: 20px 0;
+
+    position: relative;
+    width: 400px;
+    min-height: 450px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.545);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box__title {
+    color: white;
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    /* line-height: 120px; */
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+
+    border-bottom: 2px solid white;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+
+    transform: translateY(-50%);
+    color: white;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: white;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: white;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.forget {
+    margin: -5px 0 20px;
+    font-size: .9em;
+    color: white;
+}
+
+.login-btn {
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    background: transparent;
+    border: 2px solid;
+    border-radius: 20px;
+    
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    
+    text-transform: uppercase;
+    
+    position: relative;
+    transition: 0.2s;
+}
+
+.login-btn:hover {
+    color: #ba0961;
+    border: #ba0961 2px solid;
+    box-shadow:#ba0961 0 0 20px,
+    #BA0962 0 0 10px;
+
+}
+
+.link-reg {
+    font-size: .9em;
+    color: white;
+}
+
+.link-reg a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-reg a:hover {
+    color: #ba0961;
+    text-decoration:dashed;
+}
+
+/* section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+color: white;
+font-size: 25px;
+font-family: 'Comfortaa';
+font-weight: 500;
+
+text-align: center;
+text-transform: uppercase;
+}
+
+button {
+width: 100%;
+height: 40px;
+color: #fff;
+background: transparent;
+border: 2px solid;
+border-radius: 20px;
+
+outline: none;
+cursor: pointer;
+font-size: 1em;
+font-weight: 600;
+
+text-transform: uppercase;
+
+position: relative;
+transition: 0.2s;
+}
+
+button:hover {
+    color: #ba0961;
+    border: #ba0961 2px solid;
+    box-shadow:#ba0961 0 0 20px,
+    #BA0962 0 0 10px;
+
+    
+}
+
+.logo {
+    position: absolute;
+    top: 120px;
+    z-index: 2;
+} */

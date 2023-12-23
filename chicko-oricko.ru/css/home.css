@@ -1,0 +1,133 @@
+/* Главный первый блок INTRO ///////////////////////////////////////////////////////*/
+.intro_video {
+    width: 100%;
+    max-height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.intro {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+
+.intro__content {
+    display: flex;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.video__media {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
+.logo__logo {
+    width: 100px;
+    height: auto;
+}
+
+.intro__title {
+    color: white;
+    font-size: 48px;
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    line-height: 120px;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px #BA0962,
+    0 0 10px #ba0961,
+    0 0 10px #ba0961;
+}
+
+
+
+
+/* Блок "О нас" краткий ///////////////////////////////////////////////////////*/
+.contant1 {
+    background: #0F0F0F;
+    display: flex;
+    height: 600px;
+    margin-bottom: 90px;
+}
+
+.contant1__title {
+    display: flex;
+    flex-direction: column;
+}
+
+.contant1 h3 {
+    color: white;
+    font-size: 36px;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px #093AA8,
+    0 0 10px #093AA8,
+    0 0 10px #093AA8;
+
+    margin-bottom: 20px;
+}
+
+.contant1 p {
+    color: #F7B922;
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+
+    margin: 10px 0;
+}
+
+.contant1 span {
+    color: #BA0962;
+}
+
+.contant1__column {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contant1__column img {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    border: 3px #F7B922 solid;
+    padding: 5px;
+    background-color: #0F0F0F;
+    box-shadow: 0 0 10px #F7B922;
+}
+
+.contant1__column #photo1 {
+    right: 0;
+    margin-right: 15%;
+}
+
+.contant1__column #photo2 {
+    margin-top: 170px;
+}
+
+.contant1__button {
+    border-color: #ba0961;
+    margin-top: 15px;
+}
+
+.contant1__button:hover {
+    box-shadow: #ba0961 1px 0 10px;
+}
+
+.contant1__button a{
+    color: #BA0962;
+    text-decoration: none;
+}

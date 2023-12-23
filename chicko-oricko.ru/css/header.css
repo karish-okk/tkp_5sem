@@ -1,0 +1,91 @@
+/* Шапка*/
+.header {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    background-color: #0F0F0F;
+    height: 70px;
+}
+
+.header__top-header {
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.top-header__logo {
+    z-index: 5;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.header__content {
+    width: 100%;
+}
+
+.nav-menu {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    display: flex;
+}
+
+.header__content-items {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    display: flex;
+}
+
+.menu__link {
+    color: #F7B922;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 20px;
+}
+
+.menu__link:hover {
+    color: #BA0962;
+    text-transform: uppercase;
+    text-shadow: #BA0962 1px 0 10px;
+}
+
+.contacts-header__item {
+    display: flex;
+    min-width: 150px;
+    font-size: 12px;
+    text-transform: uppercase;
+    justify-content: right;
+    
+}
+
+.top-header__contacts {
+    display: flex;
+}
+
+.contacts-header__icon {
+    margin-right: 18px;
+    margin-top: 4px;
+}
+
+.contacts-header__label, .contacts-header__phone {
+    color: #F7B922;
+    text-decoration: none;
+}
+
+.icon {
+    margin-left: 10px;
+}
+
+/* Кнопочка резерва стола */    
+.reserved-table{
+    color: #F7B922;
+}
+
+.reserved-table:hover {
+    color: #BA0962;
+    text-shadow: #ba0961 1px 0 10px;
+}
+

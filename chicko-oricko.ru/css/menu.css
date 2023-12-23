@@ -1,0 +1,138 @@
+/*MENU///////////////////*/
+
+.menu__intro {
+    width: 100%;
+}
+.intro-menu {
+    height: 300px;
+    background: url(../assets/img/intro-menu.jpg);
+}
+
+.menu__intro__content {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu__delucious__title {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.list {
+    min-width: 500px;
+    height: 50px;
+
+    list-style-type: none;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list__item {
+    cursor: pointer;
+    margin: 0px 30px;
+}
+
+.list__item:hover {
+    text-shadow: 0 0 20px #ba0961,
+    0 0 30px #ba0961,
+    0 0 10px #ba0961,
+    0 0 10px #ba0961;
+}
+
+.list__item.active {
+    color:  #ba0961;
+
+}
+
+.delucious {
+    max-width: 100%;
+    margin: 30px 0px;
+    color: white;
+}
+
+.delucious__title {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.card-deck {
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    width: 100%;
+}
+
+.card-desk__element {
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0;;
+}
+.card-desk__element:hover {
+    border: #ba0961 2px solid;
+    box-shadow: 0 0 20px #ba0961,
+    0 0 10px #ba0961;
+    
+}
+
+.card-desk__content {
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 15px 0;
+}
+
+.card-desk__img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: auto;
+}
+
+.card-desk__body h2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-transform: uppercase;
+    width: 350px;
+}
+
+.card-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 90px;
+}
+
+.card-desk__body button {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px;
+}
+
+.k-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.k-menu button:hover{
+    box-shadow: #ba0961 1px 0 10px;
+}
